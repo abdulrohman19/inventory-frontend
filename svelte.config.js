@@ -1,9 +1,15 @@
-import adapter from '@sveltejs/adapter-node';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import path from 'path';
+import expressAdapter from '@mankins/svelte-adapter-express';
 
-const config = {
-	preprocess: vitePreprocess(),
-	kit: { adapter: adapter() }
+const __dirname = path.resolve();
+
+export default {
+  kit: {
+    adapter: expressAdapter({
+      serverFile: path.join(__dirname, './adapter/express/server.js')
+    }),
+    alias: {
+		$lib: '/src/lib'
+    }
+  },
 };
-
-export default config;
