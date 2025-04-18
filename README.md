@@ -53,16 +53,17 @@ npm install
 npm run dev
 Aplikasi akan berjalan di http://localhost:5173
 
-⚠️ Pastikan backend/API (inventory-backend) sudah berjalan agar data bisa dimuat dan transaksi dapat disimpan.
+⚠️ NB:Pastikan backend/API (inventory-backend) sudah berjalan agar data bisa dimuat dan transaksi dapat disimpan.
+
 
 🧩 Teknologi yang Digunakan
-SvelteKit
+- SvelteKit
 
-TypeScript
+- TypeScript
 
-Skeleton UI – UI framework untuk Svelte
+- Skeleton UI – UI framework untuk Svelte
 
-Tailwind CSS
+- Tailwind CSS
 
 📁 Struktur Folder (Ringkasan)
 
@@ -85,8 +86,8 @@ Tailwind CSS
 - Peringatan stok minimum
 
 🧠 Fitur Tambahan
-- UI responsif dan berwarna menarik (menggunakan Skeleton UI)
+- UI responsif dan berwarna menarik (menggunakan Skeleton UI, TailwindCss)
 
-- Filter barang by kategori dan stok minimum
+- Filter barang by kategori dan stok minimum 
 
 - Notifikasi peringatan stok rendah
