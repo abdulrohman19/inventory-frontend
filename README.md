@@ -1,4 +1,4 @@
-# Inventory Frontend
+# 🚀 Inventory Frontend
 
 Frontend aplikasi pengelolaan inventaris barang menggunakan **SvelteKit** dan **Skeleton UI**. Proyek ini merupakan bagian untuk menguji logika dan algoritma dalam membangun aplikasi CRUD yang kompleks dan dinamis.
 
