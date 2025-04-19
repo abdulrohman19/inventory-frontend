@@ -88,6 +88,6 @@ Aplikasi akan berjalan di http://localhost:5173
 🧠 Fitur Tambahan
 - UI responsif dan berwarna menarik (menggunakan Skeleton UI, TailwindCss)
 
-- Filter barang by kategori dan stok minimum (pending)
+- Filter barang by kategori dan stok minimum
 
 - Notifikasi peringatan stok rendah
