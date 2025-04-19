@@ -3,8 +3,9 @@
   import { createBarang } from '$lib/api/barang';
   import { goto } from '$app/navigation';
   import { showAlert } from '$lib/stores/alertStore';
+  import type { Barang } from '$lib/types';
 
-  async function handleSubmit(event) {
+  async function handleSubmit(event: CustomEvent<{ barang: Barang }>) {
     try {
       await createBarang(event.detail.barang);
       showAlert('success', 'Barang berhasil ditambahkan');

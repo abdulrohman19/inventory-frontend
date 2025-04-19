@@ -1,9 +1,17 @@
 // src/lib/stores/alertStore.ts
 import { writable } from 'svelte/store';
 
-export const alertStore = writable<{ type: 'success' | 'error'; message: string } | null>(null);
+export type Alert = {
+  type: 'success' | 'error';
+  message: string;
+};
 
-export function showAlert(type: 'success' | 'error', message: string) {
+export const alertStore = writable<Alert | null>(null);
+
+export function showAlert(type: Alert['type'], message: string) {
   alertStore.set({ type, message });
-  setTimeout(() => alertStore.set(null), 3000);
+
+  setTimeout(() => {
+    alertStore.set(null);
+  }, 3000);
 }
