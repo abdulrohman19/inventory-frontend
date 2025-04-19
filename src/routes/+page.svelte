@@ -47,7 +47,7 @@
 				type="text"
 				placeholder="Contoh: Elektronik"
 				bind:value={kategori}
-				class="w-52 rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+				class="w-52 rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 			/>
 		</div>
 		<div class="flex flex-col">
@@ -57,12 +57,12 @@
 				type="number"
 				placeholder="Contoh: 10"
 				bind:value={stokMin}
-				class="w-52 rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+				class="w-52 rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
 			/>
 		</div>
 		<button
 			type="submit"
-			class="h-fit rounded-md bg-gray-800 px-5 py-2 text-sm font-semibold text-white shadow-md transition duration-200 hover:bg-gray-500"
+			class="h-fit rounded-md bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-md transition duration-200 hover:bg-indigo-800"
 		>
 			🔍 Filter
 		</button>
@@ -70,7 +70,7 @@
 
 	<a
 		href="/tambah"
-		class="mb-6 inline-block rounded-md bg-gray-800 px-5 py-2 text-sm font-semibold text-white shadow-md transition duration-200 hover:bg-gray-500"
+		class="mb-6 inline-block rounded-md bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-md transition duration-200 hover:bg-indigo-800"
 	>
 		+ Tambah Barang
 	</a>

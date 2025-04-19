@@ -41,8 +41,8 @@
     <input type="number" bind:value={barang.hargaJual} min="0" required class="w-full  border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-300"/>
   </label>
   <button type="submit"
-    class="w-full p-2 border border-indigo-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
->Simpan</button>
+  class="w-full py-3 px-6 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-300"
+  >Simpan</button>
 </form>
 
 <style>

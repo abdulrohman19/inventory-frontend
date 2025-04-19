@@ -33,7 +33,7 @@
 
 <main class="min-h-screen bg-gradient-to-br from-green-50 to-blue-200 p-6 md:p-12">
   <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-xl p-8">
-    <h1 class="text-3xl font-bold text-center text-indigo-700 mb-8">Edit Barang</h1>
+    <h1 class="text-3xl font-bold text-center text-indigo-700 mb-8">✏️ Edit Barang</h1>
     
     <form on:submit|preventDefault={updateBarang} class="space-y-6">
       <!-- Nama -->
