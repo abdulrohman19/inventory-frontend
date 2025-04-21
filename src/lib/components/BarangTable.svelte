@@ -2,17 +2,20 @@
 <script lang="ts">
   import { formatCurrency } from '../utils/formatter';
   import { createEventDispatcher } from 'svelte';
-  export let barangList = [];
+  import type { Barang } from '$lib/types';
+
+  export let barangList: Barang[] = [];
   const dispatch = createEventDispatcher();
 
-  function handleEdit(id) {
+  function handleEdit(id: string) {
     dispatch('edit', { id });
   }
 
-  function handleDelete(id) {
+  function handleDelete(id: string) {
     dispatch('delete', { id });
   }
 </script>
+
 
 <table>
   <thead>

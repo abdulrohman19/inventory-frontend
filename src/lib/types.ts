@@ -5,8 +5,8 @@ export type Barang = {
   nama: string;
   kategori: string;
   stok: number;
-  hargaBeli?: number;
-  hargaJual?: number;
+  hargaBeli: number;
+  hargaJual: number;
 }
 
   

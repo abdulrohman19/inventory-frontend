@@ -4,7 +4,15 @@
   import { goto } from '$app/navigation';
   import type { Barang } from '$lib/types';
 
-  let barang: Barang = { id: '', nama: '', kategori: '', stok: 0 };
+  let barang: Barang = {
+  id: '',
+  nama: '',
+  kategori: '',
+  stok: 0,
+  hargaBeli: 0,
+  hargaJual: 0
+};
+
   let id = '';
 
   onMount(async () => {
