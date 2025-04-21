@@ -69,6 +69,14 @@ Aplikasi akan berjalan di http://localhost:5173
 
 <img width="526" alt="image" src="https://github.com/user-attachments/assets/3ab90f0e-0ae5-44c5-bd35-4d885da03800" />
 
+### 📋 Daftar Route Aplikasi Inventory
+
+| URL Route             | Halaman                    | Fungsi                                                                 |
+|-----------------------|----------------------------|------------------------------------------------------------------------|
+| `/`                   | 🏠 Beranda / Daftar Barang | Menampilkan semua barang dari database dalam bentuk tabel.            |
+| `/tambah`             | ➕ Tambah Barang           | Form untuk menambahkan barang baru.                                   |
+| `/edit/[id]`          | ✏️ Edit Barang            | Form untuk mengedit data barang berdasarkan ID-nya.                   |
+| `/transaksi`          | 📜 Daftar Transaksi       | Menampilkan daftar transaksi pembelian/penjualan barang.             |
 
 
 
