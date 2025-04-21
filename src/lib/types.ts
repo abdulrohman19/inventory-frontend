@@ -18,7 +18,11 @@ export type Barang = {
   }
   
   export interface Transaksi {
+    id: string;
     tanggal: string;
-    items: TransaksiItem[];
+    namaBarang: string;
+    jumlah: number;
+    total: number;
   }
+  
   
